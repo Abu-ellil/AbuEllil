@@ -1,8 +1,5 @@
 import React from "react";
-import html from "../img/certf/code.png";
-import js from "../img/certf/js.png";
-import mern from "../img/certf/mern.jpg";
-import react from "../img/certf/react.jpg";
+
 
 
 const Certifications = () => {
@@ -18,7 +15,7 @@ const Certifications = () => {
     {
       name: "Certification 2",
       image:
-        "https://github.com/Abu-ellil/AbuEllil/blob/main/src/img/certf/js.png?raw=true",
+        "https://github.com/Abu-ellil/AbuEllil/blob/main/src/img/certf/reactjs.png?raw=true",
       issuer: "Issuer 2",
       date: "June 2021",
       link: "https://example.com/certification-2",
