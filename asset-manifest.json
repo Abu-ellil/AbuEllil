@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/abuellil/static/css/main.8c27cc19.css",
-    "main.js": "/abuellil/static/js/main.10cefe20.js",
-    "static/media/me1.png": "/abuellil/static/media/me1.76da9920cdb752a7c53e.png",
-    "static/media/me.png": "/abuellil/static/media/me.25581a9b62d8de5dacea.png",
-    "static/media/code.png": "/abuellil/static/media/code.9d37dd55b30d8214d8a0.png",
-    "static/media/react.jpg": "/abuellil/static/media/react.04aae077ff3ca1ed5380.jpg",
-    "static/media/mern.jpg": "/abuellil/static/media/mern.022ffbae23eb4a3f31bc.jpg",
-    "index.html": "/abuellil/index.html",
-    "main.8c27cc19.css.map": "/abuellil/static/css/main.8c27cc19.css.map",
-    "main.10cefe20.js.map": "/abuellil/static/js/main.10cefe20.js.map"
+    "main.css": "/AbuEllil/static/css/main.8c27cc19.css",
+    "main.js": "/AbuEllil/static/js/main.9df8024f.js",
+    "static/media/me1.png": "/AbuEllil/static/media/me1.76da9920cdb752a7c53e.png",
+    "static/media/me.png": "/AbuEllil/static/media/me.25581a9b62d8de5dacea.png",
+    "static/media/code.png": "/AbuEllil/static/media/code.9d37dd55b30d8214d8a0.png",
+    "static/media/react.jpg": "/AbuEllil/static/media/react.04aae077ff3ca1ed5380.jpg",
+    "static/media/mern.jpg": "/AbuEllil/static/media/mern.022ffbae23eb4a3f31bc.jpg",
+    "index.html": "/AbuEllil/index.html",
+    "main.8c27cc19.css.map": "/AbuEllil/static/css/main.8c27cc19.css.map",
+    "main.9df8024f.js.map": "/AbuEllil/static/js/main.9df8024f.js.map"
   },
   "entrypoints": [
     "static/css/main.8c27cc19.css",
-    "static/js/main.10cefe20.js"
+    "static/js/main.9df8024f.js"
   ]
 }
