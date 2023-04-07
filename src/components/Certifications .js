@@ -9,24 +9,27 @@ const Certifications = () => {
   const certifications = [
     {
       name: "Certification 1",
-      image: {html},
+      image:
+        "https://github.com/Abu-ellil/AbuEllil/blob/main/src/img/certf/code.png?raw=true",
       issuer: "Issuer 1",
       date: "May 2021",
-      link: "https://example.com/certification-1",
+      link: "https://www.udemy.com/certificate/UC-a731ae10-edd2-4291-906b-0b148d8703f0/",
     },
     {
       name: "Certification 2",
-      image: {js},
+      image:
+        "https://github.com/Abu-ellil/AbuEllil/blob/main/src/img/certf/js.png?raw=true",
       issuer: "Issuer 2",
       date: "June 2021",
       link: "https://example.com/certification-2",
     },
     {
       name: "Certification 3",
-      image: "https://picsum.photos/200",
+      image:
+        "https://cdn.lynda.com/courses/751331-636924050181962939_540x960_thumb.jpg",
       issuer: "Issuer 3",
       date: "July 2021",
-      link: "https://example.com/certification-3",
+      link: "https://www.linkedin.com/learning/certificates/7e74ef7e58ab08aa3be9d7ab3cf3cb237a2d9527bb68b87b871905c225e6996b",
     },
   ];
 
