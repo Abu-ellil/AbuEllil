@@ -62,7 +62,7 @@ const Certifications = () => {
               <div className="certification-card-back">
                 <h3>{certification.issuer}</h3>
                 <p>Date: {certification.date}</p>
-                <a href={certification.link} target="_blank" rel="noreferrer">
+                <a className="btn" href={certification.link} target="_blank" rel="noreferrer">
                   View Certificate
                 </a>
               </div>
