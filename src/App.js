@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./style/style.css";
 import Header from "./components/Header";
@@ -9,21 +10,22 @@ import Portfolio from "./Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Certifications from "./components/Certifications ";
-import ToTopButton from "./components/ToTopButton"
+import ToTopButton from "./components/ToTopButton";
 
 function App() {
   return (
-    <>
+   <>
       <Header />
-      <Home />
-      <About />
-      <Services />
-      <Portfolio />
-      <Certifications />
-      <Contact />
+      <Home/>
+     <About/>
+      <Services/>
+      <Portfolio/>
+      <Certifications/>
+      <Contact/>
       <Footer />
       <ToTopButton />
-    </>
-  );}
+   </>
+  );
+}
 
-export default App
+export default App;
