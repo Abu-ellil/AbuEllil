@@ -10,16 +10,14 @@ const Certifications = () => {
     },
     {
       name: "JavaScript-the complete guide",
-      image:
-        "https://raw.githubusercontent.com/Abu-ellil/AbuEllil-portfolio/main/src/assets/certf/js.png?token=GHSAT0AAAAAACCXZLGSRVVFATJTE7JP7O34ZFC5CXA",
+      image: "https://www.mediafire.com/view/bi4cocsizpf5tnc/js.png/file",
       issuer: "JavaScript - The Complete Guide 2023 (Beginner + Advanced)",
       date: "February 2023",
       link: "https://drive.google.com/file/d/10n6FlNxcbwbqfYRuJfe6i5FRP8JzYc_8/view?usp=sharing",
     },
     {
       name: "Certification 2",
-      image:
-        "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/reactjs.png?raw=true",
+      image: "https://www.mediafire.com/view/bi4cocsizpf5tnc",
       issuer: "React - The Complete Guide (incl Hooks, React Router, Redux)",
       date: "April 2023",
       link: "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/reactjs.png?raw=true",
@@ -27,18 +25,18 @@ const Certifications = () => {
     {
       name: "Certification 3",
       image:
-        "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/node.png?raw=true",
+        "https://github.com/Abu-ellil/AbuEllil-portfolio/assets/94858304/2497c1ed-913f-4e40-9607-1f64af266884",
       issuer: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
       date: "May 2023",
       link: "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/node.png?raw=true",
     },
     {
-      name: "Certification 3",
+      name: "Programming Foundations: Beyond the Fundamentals",
       image:
         "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/1670172004596.png?raw=true",
       issuer: "Programming Foundations: Beyond the Fundamentals",
       date: "December, 2022",
-      link: "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/1670172004596.png?raw=true",
+      link: "https://drive.google.com/file/d/1B19ssRiWd9aIYg20eMv_pVnBToEAi8gS/view?usp=sharing",
     },
   ];
 
