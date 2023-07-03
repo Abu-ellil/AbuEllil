@@ -1,5 +1,4 @@
-import React from "react";
-import me1 from "../img/me1.png";
+import me1 from "../assets/me1.png";
 function About() {
   return (
     <section className="about" id="about">
