@@ -1,39 +1,42 @@
+import code from "../assets/code.png";
+import js from "../assets/js.png";
+import react from "../assets/reactjs.png";
+import node from "../assets/node.png";
+import fund from "../assets/1670172004596.png";
+
 const Certifications = () => {
   const certifications = [
     {
       name: "HTML&CSS",
-      image:
-        "https://raw.githubusercontent.com/Abu-ellil/AbuEllil-portfolio/main/src/assets/certf/code.png?token=GHSAT0AAAAAACCXZLGSSBKXJCQBOCBJJMS6ZFC5DZQ",
+      image:`${code}`,
       issuer: " Build Responsive Real-World Websites with HTML and CSS",
       date: "December 2022",
       link: "https://drive.google.com/file/d/1rUQQgkE6BG0yyrmEUQkPgqeZUTSCuDK4/view?usp=sharing",
     },
     {
       name: "JavaScript-the complete guide",
-      image: "https://www.mediafire.com/view/bi4cocsizpf5tnc/js.png/file",
+      image: `${js}`,
       issuer: "JavaScript - The Complete Guide 2023 (Beginner + Advanced)",
       date: "February 2023",
       link: "https://drive.google.com/file/d/10n6FlNxcbwbqfYRuJfe6i5FRP8JzYc_8/view?usp=sharing",
     },
     {
       name: "Certification 2",
-      image: "https://www.mediafire.com/view/bi4cocsizpf5tnc",
+      image: `${react}`,
       issuer: "React - The Complete Guide (incl Hooks, React Router, Redux)",
       date: "April 2023",
       link: "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/reactjs.png?raw=true",
     },
     {
       name: "Certification 3",
-      image:
-        "https://github.com/Abu-ellil/AbuEllil-portfolio/assets/94858304/2497c1ed-913f-4e40-9607-1f64af266884",
+      image:`${node}`,
       issuer: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
       date: "May 2023",
       link: "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/node.png?raw=true",
     },
     {
-      name: "Programming Foundations: Beyond the Fundamentals",
-      image:
-        "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/1670172004596.png?raw=true",
+      name: "Beyond the Fundamentals",
+      image:`${fund}`,
       issuer: "Programming Foundations: Beyond the Fundamentals",
       date: "December, 2022",
       link: "https://drive.google.com/file/d/1B19ssRiWd9aIYg20eMv_pVnBToEAi8gS/view?usp=sharing",
