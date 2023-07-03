@@ -1,9 +1,9 @@
-import me1 from "../assets/me1.png";
+import me2 from "../assets/me.png";
 function About() {
   return (
     <section className="about" id="about">
       <div>
-        <img className="about-img" src={me1} alt="" />
+        <img className="about-img" src={me2} alt="" />
       </div>
       <div className="about-content">
         <h2 className="heading">
