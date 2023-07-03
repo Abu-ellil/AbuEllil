@@ -1,20 +1,20 @@
 const Certifications = () => {
   const certifications = [
     {
-      name: "Certification 1",
+      name: "HTML&CSS",
       image:
-        "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/code.png?raw=true",
+        "https://raw.githubusercontent.com/Abu-ellil/AbuEllil-portfolio/main/src/assets/certf/code.png?token=GHSAT0AAAAAACCXZLGSSBKXJCQBOCBJJMS6ZFC5DZQ",
       issuer: " Build Responsive Real-World Websites with HTML and CSS",
       date: "December 2022",
-      link: "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/code.png?raw=true",
+      link: "https://drive.google.com/file/d/1rUQQgkE6BG0yyrmEUQkPgqeZUTSCuDK4/view?usp=sharing",
     },
     {
-      name: "Certification 2",
+      name: "JavaScript-the complete guide",
       image:
-        "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/js.png?raw=true",
+        "https://raw.githubusercontent.com/Abu-ellil/AbuEllil-portfolio/main/src/assets/certf/js.png?token=GHSAT0AAAAAACCXZLGSRVVFATJTE7JP7O34ZFC5CXA",
       issuer: "JavaScript - The Complete Guide 2023 (Beginner + Advanced)",
       date: "February 2023",
-      link: "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/js.png?raw=true",
+      link: "https://drive.google.com/file/d/10n6FlNxcbwbqfYRuJfe6i5FRP8JzYc_8/view?usp=sharing",
     },
     {
       name: "Certification 2",
