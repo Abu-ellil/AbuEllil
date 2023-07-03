@@ -2,13 +2,14 @@ import code from "../assets/code.png";
 import js from "../assets/js.png";
 import react from "../assets/reactjs.png";
 import node from "../assets/node.png";
+import vjs from "../assets/UC-d39716ad-be3a-4d23-9b0b-e8c039dd882e.jpg";
 import fund from "../assets/1670172004596.png";
 
 const Certifications = () => {
   const certifications = [
     {
       name: "HTML&CSS",
-      image:`${code}`,
+      image: `${code}`,
       issuer: " Build Responsive Real-World Websites with HTML and CSS",
       date: "December 2022",
       link: "https://drive.google.com/file/d/1rUQQgkE6BG0yyrmEUQkPgqeZUTSCuDK4/view?usp=sharing",
@@ -21,22 +22,29 @@ const Certifications = () => {
       link: "https://drive.google.com/file/d/10n6FlNxcbwbqfYRuJfe6i5FRP8JzYc_8/view?usp=sharing",
     },
     {
-      name: "Certification 2",
+      name: "20 JavaScript Projects",
+      image: `${vjs}`,
+      issuer: "JavaScript - The Complete Guide 2023 (Beginner + Advanced)",
+      date: "February 2023",
+      link: "https://drive.google.com/file/d/1ErdMDznMUC0rVXVYvldJfe5CmdHeRxVF/view?usp=sharing",
+    },
+    {
+      name: "React Certification",
       image: `${react}`,
       issuer: "React - The Complete Guide (incl Hooks, React Router, Redux)",
       date: "April 2023",
-      link: "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/reactjs.png?raw=true",
+      link: "https://drive.google.com/file/d/1-KoVotMEpnenKBM0sfy8fv6AeBqT8qI5/view?usp=sharing",
     },
     {
-      name: "Certification 3",
-      image:`${node}`,
+      name: "NodeJS Certification",
+      image: `${node}`,
       issuer: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
       date: "May 2023",
       link: "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/node.png?raw=true",
     },
     {
       name: "Beyond the Fundamentals",
-      image:`${fund}`,
+      image: `${fund}`,
       issuer: "Programming Foundations: Beyond the Fundamentals",
       date: "December, 2022",
       link: "https://drive.google.com/file/d/1B19ssRiWd9aIYg20eMv_pVnBToEAi8gS/view?usp=sharing",
