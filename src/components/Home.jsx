@@ -35,7 +35,7 @@ function Home() {
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
         </div>
-        <a href="#" className="btn">
+        <a href="../assets/certf/MahmoudAbuellil.pdf" className="btn" download>
           Download CV
         </a>
       </div>
