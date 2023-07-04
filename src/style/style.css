@@ -468,6 +468,7 @@ color: var(--bg-color);
 
 .to-top-button button {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
