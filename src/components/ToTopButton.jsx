@@ -29,8 +29,8 @@ const ToTopButton = () => {
 
 
   const [circumference, setCircumference] = useState(0);
- let size = 200;
- let strokeWidth = 10;
+ let size = 60;
+ let strokeWidth = 5;
  let progress = scrollPercent;
   useEffect(() => {
     const radius = size / 2;
@@ -43,41 +43,39 @@ const ToTopButton = () => {
 
 
   return (
-    <div
-      className="to-top-button"
-      style={{ opacity: scrollPercent > 10 ? 1 : 0 }}
-    >
-     
-      <svg className="circular-progress" width={size} height={size}>
-        <circle
-          className="circular-progress-bg"
-          cx={size / 2}
-          cy={size / 2}
-          r={size / 2 - strokeWidth / 2}
-          strokeWidth={strokeWidth}
-        />
-
-
- {/* <button
-        onClick={scrollToTop}
-        style={{ border: `${(scrollPercent / 100) * 10}px solid #00eeff` }}
+    <>
+      {" "}
+      <div
+        className="to-top-button"
+        style={{ opacity: scrollPercent > 10 ? .6 : 0 }}
       >
-        <span>Top</span>
-        <span className="scroll-percent">{scrollPercent}%</span>
-      </button> */}
-jhkhjkjhk
+        <button
+          onClick={scrollToTop}
+        >
+          <svg className="circular-progress" width={size} height={size}>
+            <circle
+              className="circular-progress-bg"
+              cx={size / 2}
+              cy={size / 2}
+              r={size / 2 - strokeWidth / 2}
+              strokeWidth={strokeWidth}
+            />
+            <circle
+              className="circular-progress-fill"
+              cx={size / 2}
+              cy={size / 2}
+              r={size / 2 - strokeWidth / 2}
+              strokeWidth={strokeWidth}
+              strokeDasharray={circumference}
+              strokeDashoffset={progressOffset}
+            />
+          </svg>
 
-        <circle
-          className="circular-progress-fill"
-          cx={size / 2}
-          cy={size / 2}
-          r={size / 2 - strokeWidth / 2}
-          strokeWidth={strokeWidth}
-          strokeDasharray={circumference}
-          strokeDashoffset={progressOffset}
-        />
-      </svg>
-    </div>
+          <span>Top</span>
+          {/* <span className="scroll-percent">{scrollPercent}%</span> */}
+        </button>
+      </div>
+    </>
   );
 };
 

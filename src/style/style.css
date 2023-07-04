@@ -489,7 +489,7 @@ color: var(--bg-color);
   background-color: #555;
 }
 
-.to-top-button button:focus::after {
+.to-top-button button::after {
   content: '';
   position: absolute;
   top: -20px;
@@ -498,20 +498,20 @@ color: var(--bg-color);
   right: -20px;
   border: 2px dashed white;
   border-radius: 50%;
-  animation: pulse 1s ease-in-out infinite;
+  animation: pulse 3s ease-in-out infinite;
 }
 
 @keyframes pulse {
   0% {
-    transform: scale(1);
+    transform: scale(.5);
     opacity: 0.5;
   }
   50% {
-    transform: scale(1.2);
-    opacity: 1;
+    transform: scale(1);
+    opacity: .7;
   }
   100% {
-    transform: scale(1);
+    transform: scale(.5);
     opacity: 0.5;
   }
 }

@@ -11,15 +11,16 @@
 
 .circular-progress {
   display: block;
+  position: absolute;
 }
 
 .circular-progress-bg {
   fill: none;
-  stroke: #ccc; /* Background color */
+  stroke: #ffffff; /* Background color */
 }
 
 .circular-progress-fill {
   fill: none;
-  stroke: #ff0000; /* Progress color */
+  stroke:aqua; 
   transition: stroke-dashoffset 0.3s ease;
 }
