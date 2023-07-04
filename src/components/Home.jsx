@@ -1,3 +1,4 @@
+import Lottie from 'lottie-react'
 import animationData from '../assets/programming.json'
 import {
   faFacebookF,
