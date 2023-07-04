@@ -1,4 +1,3 @@
-import Lottie from 'lottie-react'
 import animationData from '../assets/programming.json'
 import {
   faFacebookF,
@@ -7,7 +6,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import me from "../assets/me1.png";
+
 
 function Home() {
   return (
