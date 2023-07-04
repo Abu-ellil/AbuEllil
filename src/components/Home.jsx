@@ -1,3 +1,5 @@
+import Lottie from 'lottie-react'
+import animationData from '../assets/programming.json'
 import {
   faFacebookF,
   faGithub,
@@ -10,12 +12,19 @@ import me from "../assets/me1.png";
 function Home() {
   return (
     <section className="home" id="home">
-      <div className="home-content">
+      <div
+        className="home-content"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <h3>Hello, It's Me</h3>
-        <h1>Mahmoud AbuEllil</h1>
-        <h3>
-          And I'm a <span>MERN Stack Developer</span>
-        </h3>
+        <div>
+          <h1>Mahmoud AbuEllil</h1>
+          <h3>
+            And I'm a <span>MERN Stack Developer</span>
+          </h3>
+        </div>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel
           eos reiciendis tenetur, et dicta quas mollitia quasi distinctio
@@ -43,8 +52,8 @@ function Home() {
           Download CV
         </a>
       </div>
-      <div>
-        <img className="home-img" src={me} alt="" />
+      <div className="animation">
+        <Lottie animationData={animationData} />
       </div>
     </section>
   );
