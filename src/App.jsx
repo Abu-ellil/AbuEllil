@@ -7,12 +7,13 @@ import Certifications from "./components/Certifications ";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ToTopButton from "./components/ToTopButton";
+import Lottie from "lottie-react";
 import "./style/style.css";
 function App() {
   return (
     <div>
-    <Header/>
-      <Home />
+      <Header />
+      <Home Lottie={Lottie} />
       <About />
       <Services />
       <Portfolio />

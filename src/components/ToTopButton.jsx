@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-
+import  { useState, useEffect } from "react";
+import '../style/totop.css'
 
 const ToTopButton = () => {
   const [scrollPercent, setScrollPercent] = useState(0);

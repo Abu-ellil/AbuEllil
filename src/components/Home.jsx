@@ -6,10 +6,10 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Lottie from 'lottie-react'
 
 
-function Home() {
+
+function Home({Lottie}) {
   return (
     <section className="home" id="home">
       <div

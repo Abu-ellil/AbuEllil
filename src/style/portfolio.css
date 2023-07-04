@@ -6,21 +6,3 @@
 
 
 
-
-
-
-.circular-progress {
-  display: block;
-  position: absolute;
-}
-
-.circular-progress-bg {
-  fill: none;
-  stroke: #ffffff; /* Background color */
-}
-
-.circular-progress-fill {
-  fill: none;
-  stroke:aqua; 
-  transition: stroke-dashoffset 0.3s ease;
-}
