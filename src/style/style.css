@@ -8,6 +8,7 @@
   outline: none;
   border: none;
   font-family: poppins, sans-serif;
+  
 }
 
 :root {
@@ -18,12 +19,13 @@
 }
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  
 }
 
 body {
   background: var(--bg-color);
   color: var(--text-color);
+  overflow-x: hidden;
 }
 html, body {
   scroll-behavior: smooth;
@@ -424,6 +426,19 @@ color: var(--bg-color);
 
 /* ///////////////////// */
 
+@media only screen and (max-width: 868px) {
+  .footer-content {
+    display: block;
+  }
+
+  .social-media {
+    margin-top: 10px;
+  }
+
+  .social-media a {
+    margin: 0 5px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .footer-content {
     display: block;

@@ -11,15 +11,22 @@ const Certifications = () => {
       name: "NodeJS Certification",
       image: `${node}`,
       issuer: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
-      date: "May 2023",
+      date: "July 2023",
       link: "https://drive.google.com/file/d/18hOHTuJmQqhBXYdekO1LpjIK41EZ2cPN/view?usp=sharing",
     },
     {
       name: "React Certification",
       image: `${react}`,
       issuer: "React - The Complete Guide (incl Hooks, React Router, Redux)",
-      date: "April 2023",
+      date: "May 2023",
       link: "https://drive.google.com/file/d/1-KoVotMEpnenKBM0sfy8fv6AeBqT8qI5/view?usp=sharing",
+    },
+     {
+      name: "20 JavaScript Projects",
+      image: `${vjs}`,
+      issuer: "20 web projects with vanilla javascript",
+      date: "March 2023",
+      link: "https://drive.google.com/file/d/1ErdMDznMUC0rVXVYvldJfe5CmdHeRxVF/view?usp=sharing",
     },
     {
       name: "JavaScript-the complete guide",
@@ -28,13 +35,7 @@ const Certifications = () => {
       date: "February 2023",
       link: "https://drive.google.com/file/d/10n6FlNxcbwbqfYRuJfe6i5FRP8JzYc_8/view?usp=sharing",
     },
-    {
-      name: "20 JavaScript Projects",
-      image: `${vjs}`,
-      issuer: "JavaScript - The Complete Guide 2023 (Beginner + Advanced)",
-      date: "February 2023",
-      link: "https://drive.google.com/file/d/1ErdMDznMUC0rVXVYvldJfe5CmdHeRxVF/view?usp=sharing",
-    },
+   
     {
       name: "HTML&CSS",
       image: `${code}`,

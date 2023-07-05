@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState("home");
-const [ico, setIco] = useState()
+const [ico, setIco] = useState(faBars);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -55,7 +55,7 @@ const [ico, setIco] = useState()
          <img src="../../public/me1.ico" alt="" />
       </a>
       <div id="menu-icon" className="fa-solid">
-        <FontAwesomeIcon icon={faBars} />
+        <FontAwesomeIcon icon={ico} />
       </div>
       <nav className="navbar">
         <a href="#home" className={activeLink === "home" ? "active" : ""}>
