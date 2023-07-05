@@ -1,4 +1,4 @@
-import Header from './components/Header'
+import Navbar from "./components/Navbar";
 import Home from './components/Home'
 import About from "./components/About";
 import Services from "./components/Services";
@@ -12,7 +12,7 @@ import "./style/style.css";
 function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
       <Home Lottie={Lottie} />
       <About />
       <Services />

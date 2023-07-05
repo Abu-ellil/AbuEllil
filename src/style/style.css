@@ -30,44 +30,9 @@ html, body {
 }
 section{
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 10rem 2rem;
 }
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 2rem 9%;
-    background: var(--bg-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 11;
-}
-.sticky{
-    border-bottom: .1rem solid rgba(0,0,0,.2);
-}
-.logo{
-    font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 700;
-    cursor: pointer;
-}
-.navbar a{
-    font-size: 1.6rem;
-    color: var(--text-color);
-    margin-left: 4rem;
-    transition: .3s;
-}
-.navbar a:hover,
-.navbar a.active{
-    color: var(--main-color);
-}
-#menu-icon{
-    color: var(--text-color);
-    font-size: 3.6rem;
-    display: none;
-}
+
 .home{
     display: flex;
     justify-content: center;
@@ -323,6 +288,9 @@ span{
     html{
         font-size: 55%;
     }
+    .portfolio-container {
+        width: 100%;
+    }
 }
 
 
@@ -345,7 +313,6 @@ span{
         {
             min-height: auto;
         }
-    
 }
 
 /* FOOTER STYLE */
@@ -529,6 +496,8 @@ color: var(--bg-color);
 
 @media (max-width:625px){
 .portfolio-container{
+    display: flex;
+    flex-direction: column;
     grid-template-columns:1fr;
 }
 }

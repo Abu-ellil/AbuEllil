@@ -1,11 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-
+import "../style/navbar.css"
 import { useState, useEffect } from "react";
 
 
-function Header() {
+function Navbar() {
   const [activeLink, setActiveLink] = useState("home");
+const [ico, setIco] = useState()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -51,7 +52,7 @@ function Header() {
   return (
     <header className="header">
       <a href="#" className="logo">
-        MAS
+         <img src="../../public/me1.ico" alt="" />
       </a>
       <div id="menu-icon" className="fa-solid">
         <FontAwesomeIcon icon={faBars} />
@@ -83,5 +84,5 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;
 

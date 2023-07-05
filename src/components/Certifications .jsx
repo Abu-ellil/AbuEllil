@@ -8,11 +8,18 @@ import fund from "../assets/1670172004596.png";
 const Certifications = () => {
   const certifications = [
     {
-      name: "HTML&CSS",
-      image: `${code}`,
-      issuer: " Build Responsive Real-World Websites with HTML and CSS",
-      date: "December 2022",
-      link: "https://drive.google.com/file/d/1rUQQgkE6BG0yyrmEUQkPgqeZUTSCuDK4/view?usp=sharing",
+      name: "NodeJS Certification",
+      image: `${node}`,
+      issuer: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
+      date: "May 2023",
+      link: "https://drive.google.com/file/d/18hOHTuJmQqhBXYdekO1LpjIK41EZ2cPN/view?usp=sharing",
+    },
+    {
+      name: "React Certification",
+      image: `${react}`,
+      issuer: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+      date: "April 2023",
+      link: "https://drive.google.com/file/d/1-KoVotMEpnenKBM0sfy8fv6AeBqT8qI5/view?usp=sharing",
     },
     {
       name: "JavaScript-the complete guide",
@@ -29,19 +36,13 @@ const Certifications = () => {
       link: "https://drive.google.com/file/d/1ErdMDznMUC0rVXVYvldJfe5CmdHeRxVF/view?usp=sharing",
     },
     {
-      name: "React Certification",
-      image: `${react}`,
-      issuer: "React - The Complete Guide (incl Hooks, React Router, Redux)",
-      date: "April 2023",
-      link: "https://drive.google.com/file/d/1-KoVotMEpnenKBM0sfy8fv6AeBqT8qI5/view?usp=sharing",
+      name: "HTML&CSS",
+      image: `${code}`,
+      issuer: " Build Responsive Real-World Websites with HTML and CSS",
+      date: "December 2022",
+      link: "https://drive.google.com/file/d/1rUQQgkE6BG0yyrmEUQkPgqeZUTSCuDK4/view?usp=sharing",
     },
-    {
-      name: "NodeJS Certification",
-      image: `${node}`,
-      issuer: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
-      date: "May 2023",
-      link: "https://github.com/Abu-ellil/AbuEllil-portfolio/blob/main/src/assets/certf/node.png?raw=true",
-    },
+
     {
       name: "Beyond the Fundamentals",
       image: `${fund}`,
