@@ -26,9 +26,12 @@ function Home({Lottie}) {
           </h3>
         </div>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel
-          eos reiciendis tenetur, et dicta quas mollitia quasi distinctio
-          temporibus quidem, autem aliquam.
+          Welcome to my MERN stack portfolio! Discover my expertise in building
+          modern, scalable web applications using React.js, Node.js, Express.js,
+          and MongoDB. Explore dynamic projects showcasing seamless front-end
+          experiences, powerful back-end APIs, and efficient data management.
+          Let's discuss potential collaborations or answer any questions you may
+          have
         </p>
         <div className="social-media">
           <a href="https://www.linkedin.com/in/abu-ellil-806619254/">

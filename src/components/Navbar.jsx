@@ -51,7 +51,7 @@ const [ico, setIco] = useState(faBars);
 
   return (
     <header className="header">
-      <a href="#" className="logo">
+      <a href="#" className="logoo">
          <img src="../../public/me1.ico" alt="" />
       </a>
       <div id="menu-icon" className="fa-solid">

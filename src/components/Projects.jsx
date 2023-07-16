@@ -1,10 +1,14 @@
-import "../style/portfolio.css";
+import "../style/projects.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+
 
 function Portfolio() {
   return (
-    <section className="portfolio" id="portfolio">
+    <div className="portfolio" id="portfolio">
       <h2 className="heading">
-        Latest <span>Project</span>
+        Latest <span>Projects</span>
       </h2>
       <div className="portfolio-container">
         <div
@@ -18,18 +22,30 @@ function Portfolio() {
             alt=""
           />
           <div className="potfolio-layer">
-            <h4>Todo MERN Project</h4>
+            <h4>Todo MERN</h4>
             <p>
               This is a MERN (MongoDB, Express, React, Node.js) project that
               serves as a starting point for building a full-stack web
               application.
             </p>
-            <a
-              href="https://mern-project-todo-kalbonyan.vercel.app/"
-              className=""
-            >
-              <i className="fa-solid fa-up-right-from-square">➡️</i>
-            </a>
+            <div className="layer-links">
+              <a
+                href="https://github.com/Abu-ellil"
+                className=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} className="layer-icon" />
+              </a>
+              <a
+                href="https://mern-project-todo-kalbonyan.vercel.app/"
+                className=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faLink} className="layer-icon" />
+              </a>
+            </div>
           </div>
         </div>
         <div
@@ -49,9 +65,25 @@ function Portfolio() {
               interactive features such as adding cars to a shopping cart and
               managing the cart contents.
             </p>
-            <a href="https://abu-ellil.github.io/your-car-app/" className="">
-              <i className="fa-solid fa-up-right-from-square">➡️</i>
-            </a>
+
+            <div className="layer-links">
+              <a
+                href="https://github.com/Abu-ellil/your-car-app"
+                className=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} className="layer-icon" />
+              </a>
+              <a
+                href="https://abu-ellil.github.io/your-car-app/"
+                className=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faLink} className="layer-icon" />
+              </a>
+            </div>
           </div>
         </div>
         <div
@@ -67,12 +99,25 @@ function Portfolio() {
           <div className="potfolio-layer">
             <h4>20-Vanilla-JS-PROJECTS</h4>
             <p>20 web PROJECTS designed and created by Vanilla JavaScript. </p>
-            <a
-              href="https://abu-ellil.github.io/20-Vanilla-JS-PROJECTS/"
-              className=""
-            >
-              <i className="fa-solid fa-up-right-from-square">➡️</i>
-            </a>
+
+            <div className="layer-links">
+              <a
+                href="https://github.com/Abu-ellil/20-Vanilla-JS-PROJECTS"
+                className=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} className="layer-icon" />
+              </a>
+              <a
+                href="https://abu-ellil.github.io/20-Vanilla-JS-PROJECTS/"
+                className=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faLink} className="layer-icon" />
+              </a>
+            </div>
           </div>
         </div>
         <div
@@ -92,9 +137,25 @@ function Portfolio() {
               CSS. The Kanban board is a tool for visualizing tasks and
               workflow.
             </p>
-            <a href="https://abu-ellil.github.io/KanbanBoard/" className="">
-              <i className="fa-solid fa-up-right-from-square">➡️</i>
-            </a>
+
+            <div className="layer-links">
+              <a
+                href="https://github.com/Abu-ellil/KanbanBoard"
+                className=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} className="layer-icon" />
+              </a>
+              <a
+                href="https://abu-ellil.github.io/KanbanBoard/"
+                className=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faLink} className="layer-icon" />
+              </a>
+            </div>
           </div>
         </div>
         <div
@@ -113,9 +174,25 @@ function Portfolio() {
               Appie. is my main project to test what I learned after finishing
               HTML and CSS course.
             </p>
-            <a href="https://abu-ellil.github.io/Appie" className="">
-              <i className="fa-solid fa-up-right-from-square">➡️</i>
-            </a>
+
+            <div className="layer-links">
+              <a
+                href="https://github.com/Abu-ellil/Appie"
+                className=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} className="layer-icon" />
+              </a>
+              <a
+                href="https://abu-ellil.github.io/Appie"
+                className=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faLink} className="layer-icon" />
+              </a>
+            </div>
           </div>
         </div>
         <div
@@ -134,12 +211,12 @@ function Portfolio() {
               for more fun projects and ideas you can visit my github page.{" "}
             </p>
             <a href="https://github.com/Abu-ellil" className="">
-              <i className="fa-solid fa-up-right-from-square">➡️</i>
+              <FontAwesomeIcon icon={faGithub} className="layer-icon" />
             </a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
