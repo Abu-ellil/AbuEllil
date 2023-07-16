@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "../style/navbar.css"
 import { useState, useEffect } from "react";
+import me from '../assets/me1.png'
 
 
 function Navbar() {
@@ -52,7 +53,7 @@ const [ico, setIco] = useState(faBars);
   return (
     <header className="header">
       <a href="#" className="logoo">
-         <img src="../../public/me1.ico" alt="" />
+         <img src={me} alt="" />
       </a>
       <div id="menu-icon" className="fa-solid">
         <FontAwesomeIcon icon={ico} />
